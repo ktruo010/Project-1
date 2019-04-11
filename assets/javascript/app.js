@@ -9,7 +9,7 @@ const toGame = () => {
     <div id="final-score"></div>
     <button id="next-question">Next</button>
     <button id="main-menu-game" onclick = "endGamePrompt()">End Game</button>
-    <script type="text/javascript" src="http://tracking.musixmatch.com/t1.0/AMa6hJCIEzn1v8RuOP"></script>
+    <script type="text/javascript" src="https://tracking.musixmatch.com/t1.0/AMa6hJCIEzn1v8RuOP"></script>
     `
   if (kanyeTrump === true) {
     document.querySelector('#game-header').innerHTML = `<h1>Kanye vs Trump</h1>`
@@ -267,7 +267,7 @@ const fetchWords = () => {
 // Grabbing the definition
 const fetchQuote = () => {
   let wordShuffler = shuffle(words)
-  fetch(`http://api.urbandictionary.com/v0/define?term=` + wordShuffler[0])
+  fetch(`https://api.urbandictionary.com/v0/define?term=` + wordShuffler[0])
     .then(response => response.json())
     .then(response => {
       rightWord = response.list[0].word
@@ -749,7 +749,7 @@ const assignPlayersMusic = _ => {
 const getSong = () => {
   musicAnswerArray = []
   musicOptionsArray = []
-  fetch('http://api.napster.com/v2.2/tracks/top?apikey=YTkxZTRhNzAtODdlNy00ZjMzLTg0MWItOTc0NmZmNjU4Yzk4')
+  fetch('https://api.napster.com/v2.2/tracks/top?apikey=YTkxZTRhNzAtODdlNy00ZjMzLTg0MWItOTc0NmZmNjU4Yzk4')
     .then(r => r.json())
     .then(r => {
       // random number to grab random song
@@ -1078,7 +1078,7 @@ const startMovieGame = () => {
     .then(r => {
       randomNumber2 = Math.floor(Math.random() * r.results.length)
       randomMovie = r.results[randomNumber2].original_title
-      fetch(`http://www.omdbapi.com/?t=${randomMovie}&apikey=7be547a6&type=movie`)
+      fetch(`https://www.omdbapi.com/?t=${randomMovie}&apikey=7be547a6&type=movie`)
         .then(r => r.json())
         .then(r => {
           imageURL = r.Poster
