@@ -1,0 +1,277 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+
+.pageheader {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Luckiest Guy', cursive;
+  color: black;
+  font-weight: 400;
+  line-height: 37px;
+  margin-top: 20px;
+}
+
+section.style-boxes .style-boxes-outer {
+  text-align: left;
+  margin-bottom: 6px;
+  padding: 0 3px;
+}
+
+section.style-boxes .style-boxes-outer .style-boxes-items {
+  height: 350px;
+  display: table;
+  width: 100%;
+}
+
+section.style-boxes .style-boxes-outer .style-boxes-items p {
+  color: #fff;
+}
+
+section.style-boxes .boxes-align {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+section.style-boxes .small-box,
+section.style-boxes .large-box {
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.style-boxes .style-boxes-items h2 {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: center;
+  margin: 20px 0 10px;
+  text-transform: uppercase;
+  font-family: 'Luckiest Guy', cursive;
+
+}
+
+section.style-boxes .style-boxes-items p {
+  font-size: 20px;
+}
+
+section.style-boxes .kanye-trump {
+  background-color: rgb(58, 78, 189);
+  display: none;
+}
+
+section.style-boxes .music-box {
+  background-color: #0489b7;
+}
+
+section.style-boxes .lyric-box {
+  background-color: rgb(41, 240, 147);
+}
+
+section.style-boxes .urbandictionary {
+  background-color: rgb(170, 53, 82);
+}
+
+section.style-boxes .movie-box {
+  background-color: rgb(226, 228, 95);
+}
+
+section.style-boxes .trivia-box {
+  background-color: rgb(185, 84, 84);
+}
+
+
+section.style-boxes .style-boxes-items:hover {
+  opacity: .2;
+  cursor: pointer;
+}
+
+#introTitle {
+  font-size: 35px;
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+button.playerSelection {
+  width: 70px;
+  height: 70px;
+  /* margin-left: 45%;
+  margin-right: 45%; */
+  margin: 20px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 110%;
+  background-color: rgb(41, 240, 147);
+  display: inline-block;
+}
+
+.player-name-header {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 20pt;
+  margin: 10px;
+}
+
+#player-label {
+
+}
+
+#playerSubmit {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 90%;
+  margin-top: 3%;
+  width: 90px;
+  height: 40px;
+  background-color: rgb(41, 240, 147);
+}
+
+#text {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  color: rgb(170, 53, 82);
+}
+
+h2 {
+  font-size: 20pt;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 10px;
+}
+
+.playerNum {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 180%;
+  margin-top: 2%;
+  
+}
+
+input[type=text] {
+  border: 1px solid grey;
+  border-radius: 2px;;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  height: 30px;
+  width: 160px;
+}
+
+#game-header {
+  margin-top: 5%;
+}
+
+#user-prompt {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+#score-board {
+  font-family: 'Luckiest Guy', cursive;
+  border: 1px solid gray;
+}
+
+#game-question {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 130%;
+}
+
+#game-choices {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  margin: 10px;
+}
+
+#game-answer {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center
+
+}
+
+#final-score {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+
+}
+
+button {
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+#next-question {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 90%;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(41, 240, 147);
+  align-content: center;
+  margin: 3%;
+}
+
+#main-menu-game {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 90%;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(41, 240, 147);
+  align-content: center;
+  margin: 3%;
+}
+
+.player-points {
+  font-family: 'Luckiest Guy', cursive;
+  color: black;
+  font-size: 120%;
+}
+
+#player-label {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 150%;
+  margin-top: 3%;
+}
+
+.player-names {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 130%;
+  margin-top: 3%;
+}
+
+#restart-game {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 90%;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(41, 240, 147);
+  align-content: center;
+}
+
+#main-menu {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 90%;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(41, 240, 147);
+  align-content: center;
+}
+
+#game-answer {
+  margin: 20px;
+}
+.playerButtonNames {
+  margin-top: 20px;
+}
